@@ -14,8 +14,8 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-one`.
-- [ ] Ensure that the repository is public.
+- [ X ] Create a branch called `assignment-one`.
+- [ X ] Ensure that the repository is public.
 - [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
 - [ ] Verify that the link is accessible in a private browser window.
 
@@ -206,4 +206,11 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 ```
 Your thoughts...
+
+Our society is always changing... Nowadays, we are living through a transformation that expands the concepts of family, social roles, and identities. These changes cause discomfort in some segments of society which are more reluctant to adapt to the new era. The databases and data systems also change with us as a society and with technological advances. It is not really shocking to see that legacy systems and databases cause troubles or put obstacles in the way of those who are leading the transformation era. Unfortunately, the fraction more reluctant to change would argue that databases and data systems should remain unchanged, perhaps because they are more efficient or simply to avoid the effort. However, the unwillingness to change the systems to adapt to the changes in our society could be just a reflection of their convictions and moral beliefs. Is really important to increase the awareness of this situation to push towards the modification of the systems to match this transformation wave and help people that can be marginalized and increase the general fairness in our society. 
+
+Personally, I have seen the lack of equality in systems related to the application of social benefits. It would be very important to update several programs to support non-traditional families and special situations such as disabilities, including mental health. These situations can be very serious, resulting in an increase of homeless people or families struggling to put food on the table.
+
+Another instance that I can think of is the inclusion of linear career progression in HR databases and job-seeking platforms, which exclude people who had to take breaks due to health or other reasons. Also, related to finances, the current banking systems and government policies promote certain types of income and employment, leaving behind non-traditional employment such as freelance, gig work, or informal economy, which can be the main type of income for many people.
+
 ```
