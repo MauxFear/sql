@@ -14,8 +14,8 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-two`.
-- [ ] Ensure that the repository is public.
+- [ X ] Create a branch called `assignment-two`.
+- [ X ] Ensure that the repository is public.
 - [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
 - [ ] Verify that the link is accessible in a private browser window.
 
@@ -55,6 +55,23 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 
 ```
 Your answer...
+
+According with the web search, Type 1 would be referring to the architectures that overwrite existing data. In the case of the CUSTOMER_ADDRESS table can be done by just a single address record per customer. 
+CUSTOMER_ADDRESS
+- customer_id
+- address
+- update_at_date
+
+For Type 2 architectures a new address record would be added each time the customer would update the information. 
+CUSTOMER_ADDRESS
+- customer_id  
+- address  
+- valid_from  
+- valid_to  
+- is_current  
+
+With this architecture we can store an history of the changes. 
+
 ```
 
 ***
