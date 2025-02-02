@@ -14,8 +14,8 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-two`.
-- [ ] Ensure that the repository is public.
+- [ X ] Create a branch called `assignment-two`.
+- [ X ] Ensure that the repository is public.
 - [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
 - [ ] Verify that the link is accessible in a private browser window.
 
@@ -55,6 +55,23 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 
 ```
 Your answer...
+
+According with the web search, Type 1 would be referring to the architectures that overwrite existing data. In the case of the CUSTOMER_ADDRESS table can be done by just a single address record per customer. 
+CUSTOMER_ADDRESS
+- customer_id
+- address
+- update_at_date
+
+For Type 2 architectures a new address record would be added each time the customer would update the information. 
+CUSTOMER_ADDRESS
+- customer_id  
+- address  
+- valid_from  
+- valid_to  
+- is_current  
+
+With this architecture we can store an history of the changes. 
+
 ```
 
 ***
@@ -183,4 +200,12 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 ```
 Your thoughts...
+
+This article showed us the hidden side of new technologies that are not commonly known and that we can easily forget. The article's premise is that new technologies usually rely on cheap manual labour and usually unappreciated labour from academics, students, or random persons. I agree with the claim that there is a common disconnect between high-value technologies and the low wages paid to workers who make them possible. 
+This is not a new problem; it's the base of scientific research and innovation where graduate students do the work and get low and no recognition among low compensations and high pressures to be innovative and to do high-quality work while dealing with quality life. This usually is due to living under low quality of life conditions and poor mental health. Progress has a price, and usually, the people with lower opportunities are the ones who pay them. 
+Another ethical issue that will become relevant in the coming years is bias due to how databases are structured or the data collected. This complex problem could lead to the underrepresentation of minorities or dangerous assumptions due to human or technical bias. Also, this issue is challenging to identify and correct, and I think eliminating it won't be possible since humans are always involved in developing new technologies. 
+Another interesting issue is related to data attribution, similar to cases like ImageNet or WordNet, which used data available on the Web of public registries. Nowadays, LLMs and Chatbots such as ChatGPT are revolutionizing the AI world by integrating it into the day-to-day dynamics of millions of people worldwide. The attribution issue shows up because these models are being trained with data from the users and from data from the Web, usually from users who do not understand how their data would be used. Once the data is collected and used to develop a new model, it belongs to the AI company, raising a concern about how the data obtained for free can be used to create a very lucrative software earning billions of dollars.
+
+
+
 ```
